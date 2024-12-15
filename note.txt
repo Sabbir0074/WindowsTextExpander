@@ -1,0 +1,6 @@
+windows: g++ -o textexpander txtexpander.cpp -lgdi32
+
+linux: g++ -o textexpander textexpander.cpp -lX11 -lXtst
+
+
+https://chatgpt.com/c/6751e88a-0da4-800a-80d3-7bc6d9bc6324
